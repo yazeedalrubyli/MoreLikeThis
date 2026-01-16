@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.local
+
+# Build
+dist/
+build/
+
+# Stremio folders (not needed for deployment)
+stremio-beamup/
+stremio-addon-sdk/
+
+# Terminal files
+terminals/
+
+# Screenshots
+*.png
+*.jpg
+
+# Lock files (optional - can keep package-lock.json)
+yarn.lock
+
+# Cache
+.cache/
+.npm/
